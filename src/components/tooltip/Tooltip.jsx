@@ -33,6 +33,9 @@ const Tooltip = (props) => {
             <li>
               <b>Mass</b>: {props.hover.object.mass} grams
             </li>
+            <li>
+              <a href={`https://www.google.com/search?q=${props.hover.object.name}+meteor+${props.hover.object.year} `}>Click for more info</a>
+            </li>
           </ul>
         </div>
       )}
